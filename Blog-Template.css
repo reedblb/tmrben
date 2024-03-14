@@ -9,24 +9,18 @@
 }
 
 .u-section-1 .u-blog-1 {
-  margin-top: 7px;
-  margin-bottom: 60px;
-  height: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .u-section-1 .u-repeater-1 {
-  grid-auto-columns: calc(33.3333% - 14.6667px);
-  grid-template-columns: calc(33.3333% - 14.6667px) calc(33.3333% - 14.6667px) calc(33.3333% - 14.6667px);
-  grid-gap: 22px 22px;
-  min-height: 441px;
-}
-
-.u-section-1 .u-repeater-item-1 {
-  background-image: none;
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  min-height: 2434px;
+  grid-gap: 10px 10px;
 }
 
 .u-section-1 .u-container-layout-1 {
-  padding: 30px 20px;
+  padding: 30px;
 }
 
 .u-section-1 .u-text-1 {
@@ -35,12 +29,18 @@
 }
 
 .u-section-1 .u-image-1 {
-  height: 222px;
-  margin-top: 17px;
+  height: 298px;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
 .u-section-1 .u-text-2 {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.u-section-1 .u-metadata-1 {
+  margin-left: 0;
   margin-top: 20px;
   margin-bottom: 0;
 }
@@ -48,36 +48,109 @@
 .u-section-1 .u-btn-1 {
   background-image: none;
   border-style: solid;
-  margin: 17px auto 0 0;
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-image-2 {
+  height: 298px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  background-image: url("images/DALLE2024-03-1315.35.58-VisualizeamoresubduedandfocusedfeatureimageforablogtitledHowSocialMediaCanHelpYouAceYourExams.Thisimageportraysacozysoftl.webp");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-text-4 {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.u-section-1 .u-metadata-2 {
+  margin-left: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-btn-2 {
+  background-image: none;
+  border-style: solid;
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-image-3 {
+  height: 298px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  background-image: url("images/DALLE2024-03-1214.18.55-Enhancetheblogposterdesigntoemphasizemodern21st-centuryeducationaltoolsandsetitagainstthebackdropofDubaisiconicskylineincludin.webp");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-text-6 {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.u-section-1 .u-metadata-3 {
+  margin-left: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-btn-3 {
+  background-image: none;
+  border-style: solid;
+  margin-bottom: 0;
+  margin-top: 20px;
   padding: 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-repeater-1 {
-    min-height: 361px;
+    grid-template-columns: repeat(2, calc(50% - 5px));
+    min-height: 2005px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-repeater-1 {
-    grid-auto-columns: calc(50% - 11px);
-    grid-template-columns: calc(50% - 11px) calc(50% - 11px);
-    min-height: 422px;
+    grid-template-columns: 100%;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-repeater-1 {
-    grid-auto-columns: 100%;
-    grid-template-columns: 100%;
-  }
-
   .u-section-1 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .u-section-1 .u-image-1 {
-    height: 278px;
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

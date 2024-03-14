@@ -42102,6 +42102,8 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
         }
 
         /** common-rules **/
@@ -42234,6 +42236,11 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         line-height: 1.6;
+        }
+        .u-body
+        {
+        background-image: linear-gradient(#e5e5e5, #e0e5eb);
+        background-attachment: fixed;
         }
         .u-input
         {
@@ -42584,9 +42591,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-1 {
-  font-weight: 700;
   font-size: 1rem;
-  letter-spacing: normal;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-image: none;
 }
 
 .u-header .u-nav-2 {
